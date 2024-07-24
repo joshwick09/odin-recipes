@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+.title,
+.heading {
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.title {
+    border: 30px rgba(231, 52, 28, 0.644);
+    border-style: groove;
+    font-size: 55px;
+    text-align: center;
+    padding:10px;
+    margin: 30px -100px 50px;
+
+}
+.heading {
+    color: maroon;
+    height:max-content;
+    width:max-content;
+    text-align: left;
+    margin: 20px;
+    padding: 10px;
+    border-top: 3px rgb(173, 55, 46);
+    border-bottom: 3px rgb(173, 55, 46);
+    border-style:dotted;
+    border-right: 0px;
+    border-left: 0px
+}
+
+#small {
+    font-size: 18px;
+    background-color: beige;
+    color: maroon;
+    font-style: italic;
+    font-weight: normal;
+}
+
+#center {
+    text-align: center;
+}
+
+img {
+    width: 450px;
+    height: auto;
+}
+
+.button {
+    margin: 5px 275px;
+    font-style: italic;
+    text-align: center;
+    padding: 4px;
+    /*border: 3px rgba(186, 207, 186, 0.603);*/
+    /*border-style:inset;*/
+}
+
+.button ul {
+    list-style-position: inside;
+    padding: 5px;
+    margin: 5px;
+}
+
+.button ul li{
+    display:inline-block;
+    background-color: beige;
+    border:2px gray;
+    border-style:solid;
+    margin: 6px;
+    padding: 6px;
+}
+
